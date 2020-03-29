@@ -1,0 +1,24 @@
+{
+  "title": "Capslock to Option",
+  "rules": [
+    {
+      "description": "Capslock to Option",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+            }
+          },
+          "to": {
+            "key_code": "spacebar",
+            "modifiers": [
+              "left_alt"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
